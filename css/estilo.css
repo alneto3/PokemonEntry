@@ -1,0 +1,56 @@
+body {
+    margin: 1px;
+    height:100%; 
+    width:50%;
+    background: linear-gradient(to right,#43E97B, #38F9D7)
+}
+
+
+/* 
+.logo {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+} */
+
+
+.logo {
+    width: 400px;
+}
+
+.botao {
+    text-align: center;
+    background: #ff3d71;
+    border-radius: 45px;
+    color: white;
+    width: 124px;
+    height: 56px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    Font-style: bold;
+    Font-size: 18px;
+    Line-height: 24px;
+    Line-height: 98%;
+}
+
+/* #centralizar{
+    position:absolute; 
+    top:62%;
+    left:51%;
+    transform: translate(-50%, -50%);
+} */
+
+
+/* FLEX CONTAINER */
+
+.flex-container {
+    height: 50vw;
+    width: 100vw;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
